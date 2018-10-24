@@ -47,6 +47,20 @@ fun shouldChangeWater(day: String, temperature: Int = 22, dirty: Int = 20): Bool
     }
 }
 
+var dirty = 20
+val waterFilter: (Int) -> Int = {dirty -> dirty/2}
+fun feedfish(ditry: Int) = dirty + 10
+
+fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
+    return operation(dirty)
+}
+
+fun dirtyProcessor(){
+    dirty = updateDirty(dirty, waterFilter)
+    dirty = updateDirty(dirty, ::feedfish)
+    dirty = updateDirty(dirty,{dirty -> dirty + 50})
+}
+
 fun makeNewAquarium() = println("Building a new aquarium.......")
 fun aquariumStatusReport (aquarium: Any  = makeNewAquarium()){
 
