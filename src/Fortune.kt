@@ -1,5 +1,10 @@
 fun main(args: Array<String>) {
-    println("\nYour fortune is: ${getFortune()}")
+    var fortune: String
+    for (i in 1..10) {
+        fortune = getFortune()
+        println("\nYour fortune is: $fortune")
+        if (fortune.contains("Take it easy")) break
+    }
 }
 
 fun getFortune() : String {
