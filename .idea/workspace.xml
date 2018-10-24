@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +25,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2" />
-          <entry key="kt" value="3315" />
-          <entry key="txt" value="572" />
+          <entry key="kt" value="3417" />
+          <entry key="txt" value="632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
-          <entry key="Kotlin" value="3315" />
-          <entry key="PLAIN_TEXT" value="572" />
+          <entry key="Kotlin" value="3417" />
+          <entry key="PLAIN_TEXT" value="632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="352">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -80,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Spice/Spice.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -174,10 +175,10 @@
         <option value="$PROJECT_DIR$/src/Spice/SimpleSpice.kt" />
         <option value="$PROJECT_DIR$/src/Spice/main.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
-        <option value="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Fish.kt" />
         <option value="$PROJECT_DIR$/src/Spice/SpiceMain.kt" />
         <option value="$PROJECT_DIR$/src/Spice/Spice.kt" />
+        <option value="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" />
       </list>
     </option>
   </component>
@@ -234,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540414834959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540415113886" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -351,7 +352,7 @@
       <updated>1540387296202</updated>
       <workItem from="1540387297531" duration="1453000" />
       <workItem from="1540389024144" duration="4670000" />
-      <workItem from="1540406088028" duration="7579000" />
+      <workItem from="1540406088028" duration="7822000" />
     </task>
     <task id="LOCAL-00001" summary="Added hello program">
       <created>1540389254179</created>
@@ -549,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540414586240</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="package Spice - Spice.kt SpiceMain.kt lesson 4.5 practice">
+      <created>1540414878983</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1540414878983</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13702000" />
+    <option name="totallyTimeSpent" value="13945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -630,7 +638,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added hello program" />
     <MESSAGE value="Added date program" />
     <MESSAGE value="Added realization of dayofweek method if date.kt" />
     <MESSAGE value="program with arguments" />
@@ -655,7 +662,8 @@
     <MESSAGE value="Defining classes lesson 4.2" />
     <MESSAGE value="package Spice - SimpleSpace.kt lesson 4.3 practice" />
     <MESSAGE value="Constructors lesson 4.4 practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructors lesson 4.4 practice" />
+    <MESSAGE value="package Spice - Spice.kt SpiceMain.kt lesson 4.5 practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="package Spice - Spice.kt SpiceMain.kt lesson 4.5 practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -764,6 +765,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
         </state>
       </provider>
     </entry>
