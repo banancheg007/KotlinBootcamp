@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="">
+    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="whatShouldIDoToday practice 3.13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinBootcamp/META-INF/KotlinBootcamp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinBootcamp/META-INF/KotlinBootcamp.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,14 +26,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2" />
-          <entry key="kt" value="1000" />
+          <entry key="kt" value="1538" />
           <entry key="txt" value="317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
-          <entry key="Kotlin" value="1000" />
+          <entry key="Kotlin" value="1538" />
           <entry key="PLAIN_TEXT" value="317" />
         </counts>
       </usages-collector>
@@ -53,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AMS.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -71,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WhatShouldIDoToday.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -131,9 +133,9 @@
         <option value="$PROJECT_DIR$/src/Date.kt" />
         <option value="$PROJECT_DIR$/src/Greetings.kt" />
         <option value="$PROJECT_DIR$/src/Fortune.kt" />
-        <option value="$PROJECT_DIR$/src/AMS.kt" />
         <option value="$PROJECT_DIR$/src/FitMoreFish.kt" />
         <option value="$PROJECT_DIR$/src/WhatShouldIDoToday.kt" />
+        <option value="$PROJECT_DIR$/src/AMS.kt" />
       </list>
     </option>
   </component>
@@ -178,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540407271838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540408025673" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -290,7 +292,7 @@
       <updated>1540387296202</updated>
       <workItem from="1540387297531" duration="1453000" />
       <workItem from="1540389024144" duration="4670000" />
-      <workItem from="1540406088028" duration="1193000" />
+      <workItem from="1540406088028" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="Added hello program">
       <created>1540389254179</created>
@@ -404,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540407289721</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="whatShouldIDoToday practice 3.13">
+      <created>1540407306903</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1540407306903</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7316000" />
+    <option name="totallyTimeSpent" value="8046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -535,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FitMoreFish.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -553,6 +555,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
