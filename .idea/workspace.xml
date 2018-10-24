@@ -24,25 +24,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2" />
-          <entry key="kt" value="2520" />
-          <entry key="txt" value="459" />
+          <entry key="kt" value="2526" />
+          <entry key="txt" value="488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
-          <entry key="Kotlin" value="2520" />
-          <entry key="PLAIN_TEXT" value="459" />
+          <entry key="Kotlin" value="2526" />
+          <entry key="PLAIN_TEXT" value="488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="9" />
+          <entry key="kt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="9" />
+          <entry key="Kotlin" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -71,11 +71,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Spice/SimpleSpice.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Spice/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="8" selection-end-column="31" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -117,15 +135,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greetings.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Date.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -162,8 +171,10 @@
         <option value="$PROJECT_DIR$/src/Fortune.kt" />
         <option value="$PROJECT_DIR$/src/Spices.kt" />
         <option value="$PROJECT_DIR$/src/AMS.kt" />
-        <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" />
+        <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
+        <option value="$PROJECT_DIR$/src/Spice/SimpleSpice.kt" />
+        <option value="$PROJECT_DIR$/src/Spice/main.kt" />
       </list>
     </option>
   </component>
@@ -198,6 +209,18 @@
               <item name="KotlinBootcamp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KotlinBootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinBootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinBootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinBootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Spice" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540413275899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540413482456" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -230,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.SpicesKt">
+  <component name="RunManager" selected="Kotlin.Spice.MainKt">
     <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinBootcamp" />
       <option name="VM_PARAMETERS" value="" />
@@ -244,19 +267,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FitMoreFishKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinBootcamp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="FitMoreFishKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FortuneKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinBootcamp" />
       <option name="VM_PARAMETERS" />
@@ -265,6 +275,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="FortuneKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spice.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinBootcamp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Spice.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,17 +322,17 @@
     <list>
       <item itemvalue="Kotlin.AMSKt" />
       <item itemvalue="Kotlin.FortuneKt" />
-      <item itemvalue="Kotlin.FitMoreFishKt" />
       <item itemvalue="Kotlin.WhatShouldIDoTodayKt" />
       <item itemvalue="Kotlin.SpicesKt" />
+      <item itemvalue="Kotlin.Spice.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Spice.MainKt" />
         <item itemvalue="Kotlin.SpicesKt" />
         <item itemvalue="Kotlin.AMSKt" />
         <item itemvalue="Kotlin.FortuneKt" />
         <item itemvalue="Kotlin.WhatShouldIDoTodayKt" />
-        <item itemvalue="Kotlin.FitMoreFishKt" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +348,7 @@
       <updated>1540387296202</updated>
       <workItem from="1540387297531" duration="1453000" />
       <workItem from="1540389024144" duration="4670000" />
-      <workItem from="1540406088028" duration="5971000" />
+      <workItem from="1540406088028" duration="6216000" />
     </task>
     <task id="LOCAL-00001" summary="Added hello program">
       <created>1540389254179</created>
@@ -502,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540410730161</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Defining classes lesson 4.2">
+      <created>1540413322835</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1540413322835</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12094000" />
+    <option name="totallyTimeSpent" value="12339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -605,7 +635,8 @@
     <MESSAGE value="Lesson 3.16 Kotlin filters" />
     <MESSAGE value="Lesson 3.17 Practice spices" />
     <MESSAGE value="Lambdas Lesson 3.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambdas Lesson 3.18" />
+    <MESSAGE value="Defining classes lesson 4.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining classes lesson 4.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,10 +706,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spice/SimpleSpice.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="8" selection-end-column="31" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spice/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
         </state>
       </provider>
     </entry>
