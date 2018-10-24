@@ -169,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540407123957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540407258133" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -186,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.FitMoreFishKt">
+  <component name="RunManager" selected="Kotlin.WhatShouldIDoTodayKt">
     <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinBootcamp" />
       <option name="VM_PARAMETERS" value="" />
@@ -196,19 +196,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="AMSKt" />
       <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinBootcamp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DateKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,20 +239,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhatShouldIDoTodayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinBootcamp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="WhatShouldIDoTodayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.AMSKt" />
-      <item itemvalue="Kotlin.DateKt" />
       <item itemvalue="Kotlin.GreetingsKt" />
       <item itemvalue="Kotlin.FortuneKt" />
       <item itemvalue="Kotlin.FitMoreFishKt" />
+      <item itemvalue="Kotlin.WhatShouldIDoTodayKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.WhatShouldIDoTodayKt" />
         <item itemvalue="Kotlin.FitMoreFishKt" />
         <item itemvalue="Kotlin.AMSKt" />
         <item itemvalue="Kotlin.FortuneKt" />
         <item itemvalue="Kotlin.GreetingsKt" />
-        <item itemvalue="Kotlin.DateKt" />
       </list>
     </recent_temporary>
   </component>
