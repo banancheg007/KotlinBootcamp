@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="">
+    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="Changing water lesson 3.10">
+      <change afterPath="$PROJECT_DIR$/out/production/KotlinBootcamp/META-INF/KotlinBootcamp.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,25 +25,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2" />
-          <entry key="kt" value="994" />
-          <entry key="txt" value="253" />
+          <entry key="kt" value="995" />
+          <entry key="txt" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
-          <entry key="Kotlin" value="994" />
-          <entry key="PLAIN_TEXT" value="253" />
+          <entry key="Kotlin" value="995" />
+          <entry key="PLAIN_TEXT" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="4" />
+          <entry key="kt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="4" />
+          <entry key="Kotlin" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -54,11 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AMS.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FitMoreFish.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -115,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/Greetings.kt" />
         <option value="$PROJECT_DIR$/src/Fortune.kt" />
         <option value="$PROJECT_DIR$/src/AMS.kt" />
+        <option value="$PROJECT_DIR$/src/FitMoreFish.kt" />
       </list>
     </option>
   </component>
@@ -159,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540406530930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540407123957" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -176,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.AMSKt">
+  <component name="RunManager" selected="Kotlin.FitMoreFishKt">
     <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinBootcamp" />
       <option name="VM_PARAMETERS" value="" />
@@ -198,6 +208,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="DateKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FitMoreFishKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinBootcamp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FitMoreFishKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,9 +257,11 @@
       <item itemvalue="Kotlin.DateKt" />
       <item itemvalue="Kotlin.GreetingsKt" />
       <item itemvalue="Kotlin.FortuneKt" />
+      <item itemvalue="Kotlin.FitMoreFishKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FitMoreFishKt" />
         <item itemvalue="Kotlin.AMSKt" />
         <item itemvalue="Kotlin.FortuneKt" />
         <item itemvalue="Kotlin.GreetingsKt" />
@@ -256,7 +281,7 @@
       <updated>1540387296202</updated>
       <workItem from="1540387297531" duration="1453000" />
       <workItem from="1540389024144" duration="4670000" />
-      <workItem from="1540406088028" duration="435000" />
+      <workItem from="1540406088028" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="Added hello program">
       <created>1540389254179</created>
@@ -349,17 +374,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540393026365</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changing water lesson 3.10">
+      <created>1540406577248</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540406577248</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6358000" />
+    <option name="totallyTimeSpent" value="7057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +400,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,7 +474,8 @@
     <MESSAGE value="Fortune lesson 3.7 Extra Practice" />
     <MESSAGE value="Fish food Lesson 3.8" />
     <MESSAGE value="Fortune.kt lesson 3.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fortune.kt lesson 3.9" />
+    <MESSAGE value="Changing water lesson 3.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing water lesson 3.10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,13 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fortune.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -481,6 +507,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FitMoreFish.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
