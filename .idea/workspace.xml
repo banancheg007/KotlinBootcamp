@@ -6,10 +6,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractClassAndInterface/Spice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="Add interface delegation">
+      <change afterPath="$PROJECT_DIR$/src/decorations/SpiceContainer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,15 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Aquarium.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Book.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book/Book.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,11 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Spice.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/abstractClassAndInterface/Spice.java">
+      <file leaf-file-name="Spice.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interfaceAndAbstractClass/Spice.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiceContainer.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/decorations/SpiceContainer.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="32" />
+              <folding>
+                <element signature="e#21#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +159,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -190,6 +191,9 @@
         <option value="$PROJECT_DIR$/src/Spice/Spice.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/Book/Book.kt" />
+        <option value="$PROJECT_DIR$/src/abstractClassAndInterface/Spice.java" />
+        <option value="$PROJECT_DIR$/src/interfaceAndAbstractClass/Spice.kt" />
+        <option value="$PROJECT_DIR$/src/decorations/SpiceContainer.kt" />
       </list>
     </option>
   </component>
@@ -227,13 +231,25 @@
               <item name="KotlinBootcamp" type="1abcf292:AndroidViewProjectNode" />
               <item name="KotlinBootcamp" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="abstractClassAndInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KotlinBootcamp" type="1abcf292:AndroidViewProjectNode" />
               <item name="KotlinBootcamp" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="decorations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinBootcamp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="KotlinBootcamp" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="interfaceAndAbstractClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinBootcamp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="KotlinBootcamp" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="Spice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +279,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540415622819" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidNetworking" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -585,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540415250526</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add interface and abstract class">
+      <created>1541528793374</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1541528793374</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add interface delegation">
+      <created>1541528908879</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1541528908879</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -593,7 +623,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -666,8 +695,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="program with arguments" />
-    <MESSAGE value="expressions" />
     <MESSAGE value="Added Greetings.kt" />
     <MESSAGE value="Greetings.kt with string template in 1 line" />
     <MESSAGE value="RandomDay lesson 3.6" />
@@ -691,7 +718,9 @@
     <MESSAGE value="package Spice - Spice.kt SpiceMain.kt lesson 4.5 practice" />
     <MESSAGE value="package Aquarium - Inheritance lesson 4.7" />
     <MESSAGE value="package Book - Inheritance lesson 4.8 practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="package Book - Inheritance lesson 4.8 practice" />
+    <MESSAGE value="add interface and abstract class" />
+    <MESSAGE value="Add interface delegation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interface delegation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,6 +902,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractClassAndInterface/Spice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="2" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/Book.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -880,10 +916,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractClassAndInterface/Spice.java">
+    <entry file="file://$PROJECT_DIR$/src/interfaceAndAbstractClass/Spice.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorations/SpiceContainer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#21#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
