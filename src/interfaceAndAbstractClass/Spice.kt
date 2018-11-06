@@ -1,12 +1,17 @@
 package interfaceAndAbstractClass
 
 fun main(args: Array<String>) {
-    val spice = Curry("mild")
+    val spice = Curry("curry", "mild")
     spice.prepareSpice()
     spice.grind()
 }
 
-abstract class Spice(val name: String, val spiciness: String = "mild") {
+interface SpiceColor {
+    val color: String
+}
+
+abstract class Spice(val name: String, val spiciness: String = "mild",
+                     val spiceColor: SpiceColor): SpiceColor by spiceColor {
     abstract fun prepareSpice()
 
     val heat : Int
@@ -19,12 +24,6 @@ abstract class Spice(val name: String, val spiciness: String = "mild") {
             else -> 0
         }
 
-    //called after primary constructor and before any secondary
-    //constructor
-    init {
-//        println("Spice name is $name, spiciness is $spiciness and heat is $heat")
-    }
-
     override fun toString(): String {
         return "Spice name is $name, spiciness is $spiciness and heat is $heat"
     }
@@ -34,7 +33,11 @@ interface Grinder {
     fun grind()
 }
 
-class Curry(spiciness: String): Spice("curry", spiciness), Grinder {
+object YellowSpiceColor: SpiceColor {
+    override val color = "Yellow"
+}
+
+class Curry(name: String, spiciness: String, spiceColor: SpiceColor = YellowSpiceColor): Spice(name, spiciness, spiceColor), Grinder {
     override fun prepareSpice() {
         println("${name} spice prepared")
     }
