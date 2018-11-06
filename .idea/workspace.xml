@@ -6,7 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="add star projection">
+    <list default="true" id="f4956218-bda4-4b42-96c2-e78662e2f95b" name="Default Changelist" comment="Add lambdas and enums combination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,7 +20,7 @@
     <session id="1860446403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.74" value="1" />
@@ -32,26 +32,26 @@
         <counts>
           <entry key="java" value="2" />
           <entry key="kt" value="3429" />
-          <entry key="txt" value="681" />
+          <entry key="txt" value="702" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
           <entry key="Kotlin" value="3429" />
-          <entry key="PLAIN_TEXT" value="681" />
+          <entry key="PLAIN_TEXT" value="702" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="3" />
-          <entry key="kt" value="42" />
+          <entry key="kt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="3" />
-          <entry key="Kotlin" value="42" />
+          <entry key="Kotlin" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -66,24 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/Book.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaceAndAbstractClass/Spice.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pairs/Book.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,11 +114,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/generics/building.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labels/Example.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/functionalManipulations/Game.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -208,6 +208,8 @@
         <option value="$PROJECT_DIR$/src/constants/Book.kt" />
         <option value="$PROJECT_DIR$/src/extensions/Book.kt" />
         <option value="$PROJECT_DIR$/src/generics/building.kt" />
+        <option value="$PROJECT_DIR$/src/labels/Example.kt" />
+        <option value="$PROJECT_DIR$/src/functionalManipulations/Game.kt" />
       </list>
     </option>
   </component>
@@ -260,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541538758297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541539080410" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidNetworking" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -380,7 +382,7 @@
       <workItem from="1540389024144" duration="4670000" />
       <workItem from="1540406088028" duration="8965000" />
       <workItem from="1540553975610" duration="656000" />
-      <workItem from="1541538358097" duration="364000" />
+      <workItem from="1541538358097" duration="551000" />
     </task>
     <task id="LOCAL-00001" summary="Added hello program">
       <created>1540389254179</created>
@@ -690,17 +692,37 @@
       <option name="project" value="LOCAL" />
       <updated>1541538269023</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Add lambdas">
+      <created>1541538786375</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1541538786376</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add lambdas and enums combination">
+      <created>1541538899535</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1541538899535</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add lambdas and enums combination">
+      <created>1541538907339</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1541538907339</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17326000" />
+    <option name="totallyTimeSpent" value="17513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -709,16 +731,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49925596" visible="true" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48789713" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4871407" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.3297546" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50680786" side_tool="true" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49319214" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48789713" weight="0.3297546" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5128593" side_tool="true" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49319214" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4871407" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -771,8 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Compact Functions lesson 3.14" />
-    <MESSAGE value="whatShouldIDoToday Lesson 3.15 practice" />
     <MESSAGE value="Lesson 3.15 practice using repeat" />
     <MESSAGE value="Lesson 3.15 practice using while" />
     <MESSAGE value="Lesson 3.16 Kotlin filters" />
@@ -796,7 +816,9 @@
     <MESSAGE value="Use generic in and out types" />
     <MESSAGE value="Add generic function and reified keyword" />
     <MESSAGE value="add star projection" />
-    <option name="LAST_COMMIT_MESSAGE" value="add star projection" />
+    <MESSAGE value="Add lambdas" />
+    <MESSAGE value="Add lambdas and enums combination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lambdas and enums combination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,6 +998,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labels/Example.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionalManipulations/Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>

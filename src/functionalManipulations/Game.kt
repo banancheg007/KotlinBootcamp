@@ -25,4 +25,4 @@ fun main(args: Array<String>) {
     game.west()
     game.end()
     println(game.path)
-} 
+}
