@@ -18,6 +18,16 @@ class Building<out T : BaseBuildingMaterial>(val baseBuildingMaterial: T) {
     }
 }
 
+inline fun <reified T: BaseBuildingMaterial> BaseBuildingMaterial.hasType() = this is T
+
+fun <T : BaseBuildingMaterial> isSmallBuilding(building: Building<T>) {
+    if (building.actualMaterialsNeed < 500) {
+        println("Building is small")
+    } else {
+        println("Building is large")
+    }
+}
+
 fun addItem(building: Building<BaseBuildingMaterial>) {
     println("item added")
 }
@@ -25,5 +35,6 @@ fun addItem(building: Building<BaseBuildingMaterial>) {
 fun main(args: Array<String>) {
     val building = Building(Wood())
     building.build()
-    addItem(building)
+    println(building.baseBuildingMaterial.hasType<Wood>())
+    isSmallBuilding(building)
 }
