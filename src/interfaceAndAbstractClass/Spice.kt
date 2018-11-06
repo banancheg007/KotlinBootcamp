@@ -6,12 +6,19 @@ fun main(args: Array<String>) {
     spice.grind()
 }
 
-interface SpiceColor {
-    val color: String
+enum class Color(rgb: Int) {
+    YELLOW(0xFFFF00),
+    RED(0xFF0000),
+    GREEN(0x00FF00),
+    BLUE(0x0000FF)
 }
 
-abstract class Spice(val name: String, val spiciness: String = "mild",
-                     val spiceColor: SpiceColor): SpiceColor by spiceColor {
+interface SpiceColor {
+    val color: Color
+}
+
+sealed class Spice(val name: String, val spiciness: String = "mild",
+                   val spiceColor: SpiceColor): SpiceColor by spiceColor {
     abstract fun prepareSpice()
 
     val heat : Int
@@ -34,7 +41,7 @@ interface Grinder {
 }
 
 object YellowSpiceColor: SpiceColor {
-    override val color = "Yellow"
+    override val color = Color.YELLOW
 }
 
 class Curry(name: String, spiciness: String, spiceColor: SpiceColor = YellowSpiceColor): Spice(name, spiciness, spiceColor), Grinder {
