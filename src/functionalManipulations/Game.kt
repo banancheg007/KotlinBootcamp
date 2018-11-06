@@ -21,8 +21,8 @@ class Game {
         where()
     }
 
-    fun makeMove(move: String?) {
-        when(move) {
+    fun makeMove(command: String?) {
+        when(command) {
             "n" -> move(north)
             "s" -> move(south)
             "e" -> move(east)
