@@ -25,4 +25,4 @@ fun main(args: Array<String>) {
         puppy.playWithBook()
         println("Book weight is ${book.weight()}")
     }
-} 
+}
